@@ -4,9 +4,7 @@ Rock, Paper, Scissors Game
 
 A simple Rock, Paper, Scissors game built with HTML, CSS, and JavaScript. Play against the computer and keep track of your score.
 
-Live Demo: [insert live demo link or GitHub Pages link]
-
-Features:
+##Features:
 
 Simple and intuitive gameplay
 Scorekeeping and winner announcements
@@ -17,7 +15,7 @@ CSS
 JavaScript
 Getting Started:
 
-Clone the repository
+##Clone the repository
 Open index.html in your browser to play the game
 Contributing:
 
