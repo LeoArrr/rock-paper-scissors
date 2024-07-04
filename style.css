@@ -1,0 +1,68 @@
+body {
+  background-color: #000; /* black background */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  height: 100vh; /* set the body height to the full viewport height */
+  margin: 0; /* remove default margin */
+}
+
+#title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* white text */
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333; /* dark gray background */
+  color: #fff; /* white text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #55007f; /* neon purple background on hover */
+  box-shadow: 0 0 10px #55007f; /* add a glow effect */
+}
+
+button:active {
+  background-color: #7a0087; /* darker neon purple background on active */
+  box-shadow: 0 0 10px #7a0087; /* add a glow effect */
+}
+
+#rock {
+  left: 30%;
+}
+
+#paper {
+  left: 50%;
+}
+
+#scissors {
+  left: 70%;
+}
+
+#score {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* white text */
+}
+
+#announcement {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
